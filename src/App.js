@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/fontawesome.css"
+import "./component/FontAwesome"
 import {Routes, Route} from "react-router-dom"
 import Home from "./pages/home"
 function App() {
