@@ -137,13 +137,33 @@ body {
   justify-content: center;
 }
 
-section{
+.section{
   padding:  10px 0 0 0;
 }
-section > h2{
-  display: block;
+.section > h2{
   width: 60%;
   height: auto;
   margin: 20px auto;
   text-align: center;
+}
+
+.section-left-text{ 
+  height: 9rem;
+  width: 70%;
+  text-align: left;
+  margin: 10px 0 30px 0;
+  background-color: pink;
+}
+
+.section-left-text p{
+  font-size: 16px;
+}
+
+.s1{
+  padding: 0 0 0 10vw;
+}
+
+.section-banner > img {
+  width: 700px;
+  height: 400px;
 }

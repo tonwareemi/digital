@@ -2,7 +2,7 @@ import React from "react"
 import webStudio from "../images/webStudio.png"
 import HeadTopBar from "../component/head-top-bar"
 import bg from "../images/vectorBg.png"
-
+import banner from "../images/Rectangle 4.png"
 function Home(){
   return(
     <div className="home">
@@ -24,11 +24,23 @@ function Home(){
         </div>
       </header>
       <main>
-        <section>
+        <div className="section s1">
             <h2>Lorem ipsum dolor sit amet,consectetur elitinim 
             </h2>
-              <div className="section-left-text"></div>
-        </section>
+              <div className="section-left-text">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit,
+                sed ut aliquip ex ea commodo
+                -left-textsection-left-text
+                </p>
+              </div>
+              <div className="section-banner">
+                  <img src={banner} />
+              </div>
+        </div>
+        <div className="section s2">
+        </div>
       </main>
     </div>
     )
