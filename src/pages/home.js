@@ -13,16 +13,23 @@ function Home(){
             <div className="head-main-content-text">
               <p>Digital Marketing</p>
               <h2> work that we <br/> produce for our <br/> client</h2>
-              <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elitinim veniam,<br/> quis i is aute irure dolor</p>
+              <p>Lorem ipsum dolor sit amet,<br/> consectetur elitinim veniam,<br/> quis i is irure dolor</p>
               <div className="btn">
-                  get more detail
+                 <span> get more detail </span>
               </div>
             </div>
             <img src={webStudio}/>
           </div>
-          <img src={bg} width="100%" hieght="10px"/>
+          <img src={bg} width="100%"/>
         </div>
-      </header> 
+      </header>
+      <main>
+        <section>
+            <h2>Lorem ipsum dolor sit amet,consectetur elitinim 
+            </h2>
+              <div className="section-left-text"></div>
+        </section>
+      </main>
     </div>
     )
 }
