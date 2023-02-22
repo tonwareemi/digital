@@ -1,4 +1,4 @@
 import {library} from "@fortawesome/fontawesome-svg-core"
-import {faMap, faPhone} from "@fortawesome/free-solid-svg-icons"
+import {faLocationDot, faPhone} from "@fortawesome/free-solid-svg-icons"
 
-library.add(faMap,faPhone)
+library.add(faLocationDot,faPhone)

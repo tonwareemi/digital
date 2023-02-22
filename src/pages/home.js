@@ -1,48 +1,58 @@
 import React from "react"
-import webStudio from "../images/webStudio.png"
 import HeadTopBar from "../component/head-top-bar"
+import Rectangle4 from "../images/Rectangle4.png"
+import webStudio from "../images/webStudio.png"
 import bg from "../images/vectorBg.png"
-import banner from "../images/Rectangle 4.png"
+
 function Home(){
   return(
-    <div className="home">
-      <header>
-        <HeadTopBar/>
-        <div className="head-main">
-          <div className="head-main-content">
-            <div className="head-main-content-text">
-              <p>Digital Marketing</p>
-              <h2> work that we <br/> produce for our <br/> client</h2>
-              <p>Lorem ipsum dolor sit amet,<br/> consectetur elitinim veniam,<br/> quis i is irure dolor</p>
-              <div className="btn">
-                 <span> get more detail </span>
-              </div>
+        <div>
+          <header>
+            <HeadTopBar/>
+          <div className="header-banner">
+            <div className="header-banner-content">
+                <div className="header-banner-content-text">
+                  <p>Digital Marketing</p>
+                  <h2>Work that We <br/> produce for our <br/> client</h2>
+                  <p>lorem Lor img elements must have
+                     an alt prop, either with 
+                     meaningful text, or an empty 
+                     string for decorative images </p>
+                     <div className="btn">Get more details</div>
+                </div>
+                <img src={webStudio}/>
             </div>
-            <img src={webStudio}/>
+              <img src={bg}/>
           </div>
-          <img src={bg} width="100%"/>
-        </div>
-      </header>
-      <main>
-        <div className="section s1">
-            <h2>Lorem ipsum dolor sit amet,consectetur elitinim 
-            </h2>
+          </header>
+          <main>
+            <div className="section s1">
+                <h2>lorem is simply dummy text used of the printing 
+                  and typesetting industry</h2>
+
               <div className="section-left-text">
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit,
-                sed ut aliquip ex ea commodo
-                -left-textsection-left-text
-                </p>
+                    <h2>lorem Ipsum</h2>
+                    <p>lorem Lor img elements must have
+                      an alt prop, either with 
+                      meaningful text, or an empty 
+                      string for decorative images 
+                      lorem Lor img elements must have
+                      an alt prop, either with 
+                      meaningful text, or an empty 
+                      string for decorative images    
+                    </p>
+                <div className="section-left-img">
+                  <img src={Rectangle4}/>
+                </div>
               </div>
-              <div className="section-banner">
-                  <img src={banner} />
-              </div>
+              <br/>
+              <br/>
+              <h2>lorem is simply dummy text used of the printing 
+                  and typesetting industry</h2>
+              
+            </div>
+          </main>
         </div>
-        <div className="section s2">
-        </div>
-      </main>
-    </div>
     )
 }
 
