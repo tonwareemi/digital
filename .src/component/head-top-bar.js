@@ -7,7 +7,7 @@ function HeadTopBar(){
     <div className="head-bar">
       <div className="head-top-bar">
         <div className="head-top-bar-right">
-              <span>{<FontAwesomeIcon icon="location-dot"/>}company location</span>
+              <span>{<FontAwesomeIcon icon="map"/>}company location</span>
               <span>{<FontAwesomeIcon icon="phone"/>}+333 33333 333</span>
         </div> 
       </div>
